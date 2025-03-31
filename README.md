@@ -17,7 +17,7 @@ The AI-Powered Compliance Assistant is designed to ensure that the internal docu
                                       │
                                       ▼
    ┌───────────────────────────────────────────────────────────┐
-   │                      Backend API (Flask, if needed)       │
+   │                      Backend API (Flask)                  │
    │                                                           │
    │    - Receives PDF → Extracts text                         │
    │    - Calls AI model to analyze compliance                 │
