@@ -3,8 +3,8 @@ import tempfile
 from document_analyzer import extract_text_from_pdf, analyze_compliance
 from recommendation_engine import generate_compliance_fixes
 
-st.title("🛡️ AI Compliance Assistant")
-st.write("Ensure your documents comply with GDPR & CCPA")
+st.title("🛡SCO BI - AI Compliance Assistant")
+
 
 uploaded_file = st.file_uploader("📄 Upload a document", type="pdf")
 
