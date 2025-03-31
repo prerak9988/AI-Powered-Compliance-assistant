@@ -10,7 +10,7 @@ The AI-Powered Compliance Assistant is designed to ensure that the internal docu
                                       │
                                       ▼
                   +--------------------------------------+
-                  |  🎛️ Streamlit Frontend UI           |
+                  |  🎛️ Streamlit Frontend UI            |
                   |  - File uploader                     |
                   |  - Displays risks & recommendations  |
                   +--------------------------------------+
@@ -20,8 +20,8 @@ The AI-Powered Compliance Assistant is designed to ensure that the internal docu
    │                      Backend API (Flask, if needed)       │
    │                                                           │
    │    - Receives PDF → Extracts text                         │
-   │    - Calls AI model to analyze compliance                │
-   │    - Returns risks & recommended fixes                   │
+   │    - Calls AI model to analyze compliance                 │
+   │    - Returns risks & recommended fixes                    │
    └───────────────────────────────────────────────────────────┘
                                       │
                                       ▼
@@ -40,10 +40,10 @@ The AI-Powered Compliance Assistant is designed to ensure that the internal docu
                                       │
                                       ▼
     ┌────────────────────────────────────────────────────┐
-    |     AI Model (OpenAI GPT-3 via LangChain)         |
-    |  - Compares document with policies                |
-    |  - Identifies compliance risks                    |
-    |  - Suggests improvements                          |
+    |     AI Model (OpenAI GPT-3 via LangChain)          |
+    |  - Compares document with policies                 |
+    |  - Identifies compliance risks                     |
+    |  - Suggests improvements                           |
     └────────────────────────────────────────────────────┘
                                       │
                                       ▼
